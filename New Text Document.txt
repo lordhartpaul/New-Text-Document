@@ -1,0 +1,532 @@
+-- what is abstract in java.
+-- interface vs abstract. That is only the reason or is there anything
+-- Multiple Inheritance. If you want to extend one more class or interface?
+-- Exact use of interface. That is one way of implementation. Not feature
+-- why we have to declare abstract methods. Directly we can implement why we have to declare interface or abstract method. when to use abstract class and when to use interface.
+-- In abstraction can user see the classes
+-- Suppose I have one class in that I have one abstract method and one default method. Is that class is valid or not.
+-- Polymorphism. Example. Compile time vs Run time Polymorphism.
+-- suppose i have one class and one interface. My class implements that interface.
+   I will develop one method in my class based on the interface method. Here i want to access the 
+   method which i have created for that i used whatever the interface class if suppose class A is interface
+   class B is the normal class. Class B implements Class A. Here can i create the object Class A = new Class B.
+   Is there any exception JVM throws.
+   Can Class A hold class B. What is the difference between holding and creating class A = new class B.
+   Suppose class B having add method A.add can we call A.add method from class B.
+-- static vs constant
+
+-- How many ways we can create a String. If you use String S = "" what will happen. It will create object or not. where it stores.
+-- Suppose i have a string. String s = new string of hi. whether the object will be created in that case.
+-- what is the difference string s = new string and string s = "". why we have two ways.
+-- How many ways we can create thread.
+-- Where do you use spring boot. 
+-- String constant pull.
+-- when we can use StringBuffer and stringBuilder. what is the difference.
+-- What is mutable. what is changable here. Cam you give an example.
+-- what is the use of collection in java.
+-- when we can use ArrayList and LinkedList.
+-- what is HashMap. And how it work internally. How it will store the key value internally. Like kind of bucket.
+-- Bucket vs hashcode()
+-- Throw vs throws. when we can use throw and throws.
+-- what is abstract in java. 
+-- How we can create a custom bean in spring. How I can configure a bean.
+-- Suppose i have a class or any existing API class is there including the jars. In that some classes are there
+   which I can't modify. Now I want ot create a injected class or I want to create a class as spring Bean. How we can configure a bean.
+   Suppose Date class is there and i want to inject date class bean. How can i do that. what is the full process to inject java.util.date
+-- Purpose of @configuration annotation
+-- I want to exclude a package  or class in spring boot application how i can do that.
+-- Does spring boot requires a separate container.
+-- Swagger-- singleton scoped bean vs singleton design pattern
+-- prototype scope vs singleton scope
+-- what are the life cycle methods of a bean
+-- constructor injection vs setter injection. when we use them
+-- caching in hibernate
+-- How you are configuring your DAO's with the spring.
+-- what you do in repository. How you are defining the CRUD.
+-- How you are integrating the DAO with DB. What mechanism you are using. Are you using Hibernate, JDBC or JPA.
+-- How will you create a repository for a employee table which is have emp id, name.
+-- What is the purpose of view in database.
+-- What are the use of indexes in DB.
+-- Suppose I have a employee class. In that i have various properties like ID, name, age. And i created thousand objects of the employee class and added in a array list
+   Now i want a sorted array list of employee names in alphabetical order. How can i do that.
+-- What is the use of concurrent hashmap.
+-- Comparable vs comparator Interface.
+-- what are the data structure you are familiar with. 
+-- You are asked to develop a software solution for a wifi router. The router is connected with bunch of devices. Consider the home automation system where Wifi is the central part.
+   And it has some priorities which goes into it. The first priority should go to cctv. And least priority should go to some other devices. In this scenario the request is coming 
+   from various devices to wifi. And you want process those informations based on priorities and it should transfer the data based on priority. Which data structure you will pick and how you will pick.
+   How you can sort based on priority. The number of devices is fixed.
+-- Linkedlist is only efficient for manipulations but not for lookup.
+-- where we use linked list and array list.
+-- serialization vs deserialization
+-- How will you compare jvm with python or other programming languages.
+-- Relationship between primary key and index.
+-- when to use singleton.
+-- why autowiring is required.
+-- How to make a method generic and why.
+-- what is the impact of hashcode and equals in hash based collection.
+-- what is constructor chaining. what is the use of this constructor.
+-- what are the different ways to create an object.
+-- How to print the duplicate occurance of a string. 
+-- why we need constructor inside a abstract class.
+-- What is API. Different types of API.
+-- How to create custom immutable class.
+-- Hash set vs Linked Hashset.
+-- Wait vs sleep in multi threading.
+-- jar vs war file.
+-- Transient vs static
+-- checked vs unchecked exception
+-- why we use exception.
+-- If you are writing a return statement whether the finally block will be executed or not.
+-- what is autoboxing.
+-- when to use singleton.
+-- what is servlet context object.
+-- what is servlet config object.
+-- what are the implicit objects are there in jsp.
+-- Application context vs bean factory.
+
+
+
+
+saves the memory space. Prime minister of a country. Problem is if for example many classes demanded for the same instance at the same time it cannot respond back all of them at same time. so the concept of concurrency, parallelism or multi programming doesn't fit and our application starts working little slow.
+Mostly used in multi-threaded and database application. For example in MS Word whenver we type some word a single instance in the background continously check for correct spelling of word from database.
+Advantage is only single instance is reused again and again.
+To achieve singleton we have to follow the steps
+1. Private constructor
+2. getInstance menthod
+3. Declaring public getInstance
+4. Declaring static getInstance (used to call the class name with dot operator we use static; since we have declared constructor as private object will be not created so that we have to go for static)
+5. getInstance return type should be same as class
+6. The object we are returning should be member variable member ref.var(Private P p)
+7. Declaring that object as static mem.variable                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  8. correct instantiation(p = new P())                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+
+   
+Deepti Arora - 9811530940 - 10:00 AM
+Deborina Panja - 8527646846 11AM
+Sheetal Pakhale - 8056196496 - 11:30 AM
+Shruti Sharma - 9599594565 - 11:30 AM
+Neha Jhala - 8861714500 08:00 PM
+Meenu Gupta - 7819094098 - 2:00 PM
+Sarika Gupta - 9953104296 - 3:00 PM
+Nidhi Chhabra - 8587881229 - 4:00 PM
+Ritika Talwar - 9899034982 - 7:00 PM
+
+   
+what is hibernate.
+what is ORM. Advantages of ORM over jdbc or jpa.
+explain the hibernate architecture.
+what are the core interfaces of hibernate.
+What are the different functionalities supported by Hibernate.
+Explain Session object in Hibernate.
+What is Hibernate caching.
+what is cascade attribute.
+what is persistent class.
+what is sessionFactory. Is it thread safe. what is session. How to get it.
+get vs load method.
+session.save() vs session.persist()
+what are the inheritance mapping strategy.
+How many types of association mapping are possible in hibernate.
+How to perform collection mapping.
+Lazy loading.
+what is hibernate configuration file.
+How is sql query created in hibernate.
+How is Hql query created in hibernate.
+update vs merge method.
+what are the states of the object in hibernate.
+what is hibernate mapping file.
+what are the important annotations used for hibernate mapping.
+What is difference between Hibernate save(), saveOrUpdate() and persist() methods
+What is difference between sorted collection and ordered collection, which one is better.
+How to implement Joins in Hibernate.
+What is HibernateTemplate class.
+How to integrate Hibernate and Spring frameworks.
+How to integrate log4j logging in hibernate application.
+Can we execute native sql query in hibernate.
+
+
+
+
+what is jpa.
+Explain JPA architecture.
+what are the steps to insert / find / update / delete an entity.
+Different types of entity mapping.
+What is entity.
+Role of entity manager.
+Explain persistence life cycle of an object.
+What are the steps to create JPA entity class.
+Can the Entity class inherit from non-Entity classes.
+Can an Entity class inherit from other Entity classes.
+Can a non-Entity class inherit from an Entity class.
+Can Entity be an abstract class.
+what are the important annotations are their in jpa. what is @Transient, @JoinTable, @Column and @Basic annotations in JPA.
+
+Can we overload a static method in Java.
+Can we override static method in Java.
+Can we override a private method in Java.
+Can we override the final method in Java.
+Can we change the return type of method to subclass while overriding.
+Can we prevent overriding a method without using the final modifier.
+Can we have a non-abstract method inside interface.
+Can we make a class both final and abstract at the same time.
+
+How to use inheritance in java. what is the syntax of inheritance.
+What will happen if a class extends two interfaces and they both have a method with same name and signature.
+Can a class implement more than one interface in Java.
+Can a class extends more than one class in Java.
+Can an interface extends more than one interface in Java.
+What will happen if a class extends two interfaces and they both have a method with same name and signature.
+
+
+Tell me something about your last project you did. How you are using the web services in your project. Have you used any tools to test the web services.
+What are webservices.
+what is your understanding of RESTful web services.
+soap webservices vs RESTful webservices. 
+Name some of the commonly used HTTP methods used in REST based architecture.
+What is URI. What is purpose of a URI in REST based webservices.
+what is wsdl file.
+
+
+-- Explain the architecture of microservices.
+-- what are the differences between service oriented architecture, monolithic application and a microservice.
+-- what are the steps you need to follow to migrate from monolithic architecture to micro service architecture.
+-- what are the advantages and drawback of using micro service based architecture.
+-- You have many microservices suppose if any microservice if failing how you will come to know and how you will debug that.
+-- How a user interact with the first microservices.
+-- What is the procedures to configure or integrate microservice with spring boot.
+-- what is service discovery all about.
+-- Can you give an example of microservice.
+-- How do you configure the server port for microservice.
+
+
+
+-- we are writing restful webservices for any functionality. POSTMAN
+-- webservices - Something that is build and been deployed somewhere and you can use it through internet
+-- Restful webservices - The different HTTP methods like PUT, POST, DELETE we will be using.
+-- SOAP webservices - All the XML related thing will be there. WSDL is there.
+-- URI - It's a resource identifier or locator. 
+
+-- Persistent class - Means something that can be saved. Like that is stored in DB.
+-- Hibernate - It's a ORM tool. In JDBC we used to connect to DB and write the whole sql query. 
+   In hibernate it's all object oriented thing. So if i created a user object and i want to save that so i have to write simply user.save. And the internal work is done by hibernate.
+   It's a mapping between the DB and object oriented thing.
+-- Core interface - session, mapping file, session factory, transaction. From session facory we create session and we create transaction and write queries.
+-- Functionalities supported - Any sql query like update, save, delete is done by hibernate
+-- session factory - It is used to create a session object. It is thread safe.
+-- session object - To maintain single session between DB and java.
+-- Hibernate caching - 2 level caching is there. session is by default and besic level caching.
+-- Cascade attribute - whenever we want to delete cascading is done or not in that particular case. Like 2 tables are connected so all the things related to that table or the related table needs to be deleted or not.
+-- Get vs Load method - If we hit a DB one will return error and another one will not return any error
+-- Lazy loading - Until and unless we get a fetch it wont get the data. That is Lazy.
+-- Association mapping - one to one, one to many, many to many, many to one.
+-- one to one - How 2 tables are related. one to many - for example user can have multiple addresses that is one to many. Like one employee can work on different departments. Many to many - Department will also have many employees.
+-- Hibernate configuration with spring - In hibernate mapping file we specify all the dialects like for eg sql things we have to specify dialect, username, password, what type of sql we are creating.
+-- log4j - Moved to logback. we have to add log jars in the pom. Then we have to create the log property file for eg if we are using logback then logback.property file in our application. Inside the class what we do is we create a logger and simply write logger.info or logger.debug
+
+-- Custom bean - @bean and autowire it or @component
+-- @configuration - used to define the configuration class
+-- Inject a bean - If we are using xml kind of configuration, in that case we define a bean over there we can specify the exact date what we want to inject
+-- Spring boot container - contains in bult container
+-- Swagger - used for documentaion, explanation and example. If i created an API and i want to tell you what are the request parameter are there, what will be the output so for documentation purpose.
+-- restcontroller - used for restful API's. 
+-- component - It's a general stereotype. We are telling the container this is the bean.
+-- Autowired - Suppose we have a class A and it contains contains class B and it has particular variable of class B. Inside the class A if i am writing @autowired at the top of where we define the variable bean. so i am telling the container to autowire or map this. so whenver A requires the object B the container will give it.
+-- Indexes in DB - used to make query faster
+-- Life cycle methods of bean - Initialization, pre initialization, populate the properties, factory awareness, post initialization, bean name awareness.
+-- Constructor Injection - Injecting the bean at the time of initialization. Setter injection - After creation if it sets the object.
+   whenever we can't create a particular object of the class without its dependency in that case we should go with constructor injection. If a class is created without its dependency in that case we can go for setter injection.
+-- sort an array - array.sort
+-- Comaparable - By default natural sorting order.
+-- ArrayList - used for fetching purpose. LinkedList - used for manipulation purpose. Links are there so it is bit faster.
+-- Abstraction - Hiding the implementation. Like we define interface and at client side we say you can call this interface or you can call this particular method but its implementation is not been given to you.
+-- Abstract class - If you are defining abstract class you have to inherit it before initialization and write its implementation. Have both abstract & non abstract method.
+-- why and when we need abstract - Suppose i have a general card class and there are n number of sub classes so specific functionality will be given in sub class and suppose nothing general is there so in that case we cant define anything in default method in that case we can go for abstract method. So defing a particular signature, so end user knows this should be the input and this should be the output. So exact implementation will go in the subclass. So if it is a debit card the implementation will be different if it is a credit card.
+-- Interface - In Interface there is no default implementation. In abstract class implementation is allowed.
+   In subclass there can be n number of implementation of interface but we can extend only a single super class. If you want to define different different interfaces and we can have a single class implementing all these interfaces it is possible. But if we define multiple classes and extend all those classes that is not possible.
+-- Encapsulation - combining the data and methods together and hiding its implementation from outside misuse by defining access modifiers. So if it is private only that particular class can access and if it is public then some outside can use it.
+   If we do not implement getter setter - In that case depending upon the access modifier of that particular variable for eg public variable we can directly use object.particular name of the variable that can be accessed outside.
+   we dont want the variable to be accessed from anywhere.
+-- Polymorphism - Compile time(Overloading) - Having the same method but the signature is different. For eg adding two variable add int int so these two inetegers will be added. same class having different signature maybe you can say type or number of argument is changed.
+   Run time - Having a super class and having a sub class. And both the classes having same method and same signature. And at the run time we are deciding whether super class method is to be called or sub class method is to be called.
+
+-- Abstract - In abstract we dont provide the body and for the implementation the concrete class will be responsible for providing the body of that abstract class. So there is abstract layer which we will give to the client. So the implementation is hidden.
+-- Abstract class - May or may not have a abstract method. Abstract method - Method without a body.
+-- Interface - A class can implement multiple interfaces. Abstract class - No multiple inheritance is possible. we can have constructor and private or normal variables but with interface we cannot have.
+-- Multiple inheritance - Class impementing multiple interfaces.
+-- Encapsulation - we have a class and there are attributes. And you want those attributes to be accessed by getter setters. So these attributes needs to be private and they are accessed with getter setters. Whenever any other class calls this class so when it creates the object only then we can change it.
+   If we do not implement getter setter - we declared the variable as private so they will not be accessible outside the class. By making the variable public like the attributes of the class public. Suppose if there is any flag associated with the class you want the actual implementation to be hidden as i am declaring it as a private boolean towards this flag. But i want this variable to be changed only when the object is created. Default value has to be used everytime even if other class creates the object then only it can change.
+-- Polymorphism - Run time - Overriding is done in the parent child hierarchy. You have method but there parameter is also same and name is also same.
+   Compile time - Done within the class. when you have same method name but different parameters are there.
+   Advantage - At runtime if you want to give the body of any class like child class method to be executed or method to be overriden.
+
+-- When to use Interface and abstract - Depends on business need. If i have to get the full privilege to define my own custom functionality then i will be implementing interface.
+-- Polymorphism - More than one form. 
+
+-- Abstract class - Class which is abstract where the child class has to give the implementation and we cannot directly instantiate the abstract class. Abstract method - Method where there is no body definition only the declaration.
+-- Encapsulation - Putting the methods, reference variable and primitive data types within a class structure. And giving proper access specifier to the class.
+   If we do not implement getter setter - In the setter method if we want to do some additional thing like instead of directly setting the variable If we want to give the implementation in that way. So that is one purpose. Suppose i hava a int a and in the setter method i want to add 10 to it. So that can be only achieved by the setter method.
+-- Polymorphism - Multiple implementation of any methods or any arguments which we pass in the runtime.
+   Compile time - we tell the compiler which method to be called at the compile time based on the match between what we pass and what is there in argument.
+   Run time - Invoking any child class method via parent refernce variable. The actual instance is passed.
+   Advantage - Code reusability, loose coupling - we can access any child class method using parent reference variable.
+-- How to override a method - we need to extend the base class and we can provide the implementation in the child class.
+-- Inheritance - Concept of parent class and child class. All the methods and attributes of a parent class is accessible to the child class.
+   Types - Multi level, Multiple, Hierarchial, Hybrid, single.
+
+-- Abstract - Not showing the implementation part only showing the signature.
+-- Abstract method - Have only the signature. It wont be having the content in it. we just create a method with the signature it wont be having logic inside. We wont define the method.
+-- Interface - It was full abstraction before java 8 but in interface now we have default method. In interface all the methods are public, static, abstract by default in the method. We wont be having any implementation to that method we wont be having any logic inside that method we just define the method with the signature.
+-- Polymorphism - Multiple occurence. 
+   Compile time - we have discrete method with the different signature that is we pass different parameters. The check happens at the compile time.
+   Run time - If you want to use parent class method, the signature and method name will be different but we can change the logic inside that method.
+
+-- When to use Interface and abstract - Interface is required basically when we dont need to provide any definition to any method we just need to give the declaration basically for eg so this is the calculate method, area method. This method will be define in the interface and the explicit implementation class will give the body of this method.
+  Abstract Class - If i want something which should be already defined and the implemented class should not give the definition in that case we go for abstract class. And those definition we will be giving to the abstract method.
+  So if i want to write something once and i want to use it in many places then we will go for abstract class and abstract method. While i want to give a generic definition and want to use at multiple places then we will go for interface.
+-- Polymorphism - Providing many forms of the same object.
+   Compile time - Name of the methods are same in the same class but differences with the signature like what will be the return type, parameter.
+   Run time - Having same name of the method with same return type and same parameter within the subclass as well as the superclass.
+   Advantage - For eg if i want to calculate the area of the square and parameter the name area is same but the parameter and return type is different in that scenario we can go for polymorphism.
+-- If we do not implement getter setter - we write the program and there are multiple times when we provide the values to the variable at runtime so getter setter make sure that the type of the variable should be same. This is the particular type acceptable by this method. Getter setter makes sure this is the type of the variable. It defines the definition of abstraction, we are assigning values to the variable should be separate from where i am assigning this value like it should be hidden from the user that what value it is going to write. So that is the reason we keep it in separate class and encapsulate with getter setter.
+-- Static - Keyword that makes sure that one should not need to create the object to access this method or static member. 
+-- Constant - pi vale 3.14 which doesn't change in that case we use constant.
+
+
+
+ID
+Emp id
+Emp Name
+Leave Type(list) - Casual - sick leave, privilege, self marriage, paternity, maternity, compassionate
+From date
+To date
+Number of days - int
+Manager(list) - manager name
+Reason
+contact details
+Email
+cc To(list)
+
+Apply 
+
+<dependency>
+<groupId>net.sf.ucanaccess</groupId>
+<artifactId>ucanaccess</artifactId>
+<version>4.0.4</version>
+</dependency>
+
+<dependency>
+<groupId>org.springframework.boot</groupId>
+<artifactId>spring-boot-starter-jdbc</artifactId>
+</dependency>
+
+<build>
+<plugins>
+<plugin>
+<groupId>org.springframework.boot</groupId>
+<artifactId>spring-boot-maven-plugin</artifactId>
+</plugin>
+</plugins>
+</build>
+
+spring.datasource.url=jdbc:ucanacces://c:/users/developersoapbox/desktop/myDatabase.accdb;openExclusive=false;ignoreCase=true
+spring.datasource.driver-class-name=net.ucanaccess.jdbc.UcanaccessDriver
+
+select * from student_table into outfile "C:\\users\\student.csv" fields terminated by ',' lines terminated by '\n';
+
+Inner join = Displays matching records in two tables
+Left join = Displays all the data from the left table and only matching records from right table
+Right join = Displays all the data from the right table irrespective of the data in the left table you have it or not
+Full Outer join = Dislays all the matching as well as non matching records
+select * from table1 inner join table2 on table1.countryId=table2.countryId
+
+select sum(population), max(population),min(population),avg(population),count(*) from table1
+
+select countryname, year, sum(population) from table1 group by countryname, year
+
+select countryname, sum(population) from table1 group by countryname having sum(population) > 1000
+
+select * from prac MainTable where 3 = (select count(*) from prac Auxillary where Auxillary.cid > MainTable.cid)
+
+Group by = Group particular similar records
+
+Lambda expression - Enable functional programming
+
+Throws - to suppress the exception; used for compile time exception; multiple exceptions we can throw; used with the method
+Throw - Explicitly if you want to create an exception object manually; used for runtime exception; only single eception we can throw; used inside the method
+class s
+{
+public static void main(String args[])
+{
+int i=10,j=0,k;
+try
+{
+k=1*j;
+if(k>100)
+{
+throw new ArithmeticException();
+}
+System.out.println(+k);
+}
+catch(ArithmeticException e)
+{
+}
+finally
+{
+System.out.println("hey");
+}
+}
+}
+
+Delimiter
+heap memory vs class loader memory
+why regular exprssion is defined as predicate
+Boxed stream
+join string
+how do i put arraylist object into the the jsp how does it come from controller
+how spring security works. how to configure and enable spring security
+@transactional annotation
+request param vs path variable annotation
+request mapping vs get mapping
+multipart http service request
+document approach
+upload file document approach. how it works
+basic steps to connect to database application
+idem potent operation restful services
+i have a arraylist of employees and i want to convert into json and get it
+i want to get the list of employees in json format. how do you make sure the controller give the json
+i want to display the arraylist of employees how we can do that
+why string is immutable
+arraylist vs hashmap
+how can we write our custom exception
+how hashset internally works
+features changed in hashmap in java 1.8
+why do we use wrapper class
+spring boot 1.8 vs spring boot 2.0
+exception propagation. how exception propagate from one method to another method
+parent class for exception
+app server vs web server
+which is the base class in java
+what are the objects we have in object class
+object class
+what are the methods object class have
+can we throw runtime exception in throws
+in what are the scenarios you have used thread in your application
+why do we need a thread in an application
+what are the ways to create a thread
+I have 2 tables i want to find the 3rd largest maximum salary from a tables
+varchar vs varchar2
+i want to find the number of employees whose name starts with s
+how do you define your view resolver in spring boot
+i want to load some other properties file than application.properties
+how to use others servers than tomcat server
+do you have loggers in your application
+spring boot log4j or apache log4j
+does that work well with your logging 
+you have all the configuration in the application.properties file or separate file
+how do you define your file append over there in application.properties file
+suppose in an application i have to log all the request and responses in the application so just configure me. What are the properties we configure in application.properties file. what are the keys you define over there.
+what are the level of loggers in your application
+different types of logging
+static block
+groupId vs artifactID
+lambda expression
+how do you implement a functional interface
+to define a functional interface what annotation we use
+why operator overloading is not possible
+external iteration vs internal iteration
+optionals 
+why we cant override a static method
+heap memory vs class loader memory
+which collection is optimized one
+time complexity of hashmap
+serializable vs deserializable
+annotation vs autowiring
+which collection stores unique element
+how do you schedule a spring boot application
+how are you writing a controller
+if you want to map multiple maps in the controller class how we can do that
+if you want to redirect to a customized page nullpointer exception how we can do that
+how do we deploy an application
+How many ways are there to call an application from another application or call a service from another service. we have two application we need data from another application how we can make a call. what are all the ways are there
+what is your understanding of oops
+Does your spring boot application have exception. How you handle it
+Does your spring boot application contains interface or class. How they interact with each other
+How testing team able to access the code you have been working
+How the spring boot application starts
+How do you autowire manually
+Runnable Interface vs Callable Interface
+Use of wrapper class
+dirty checking
+lazy loading
+hashmap vs treemap. when to use which one
+component vs component scan
+have you used interfaces in spring boot application. how multiple interfaces or classes interact with each other. what is the flow.
+executor framework in multithreading
+pseudo of creating a singleton class
+jsp vs angular
+servlet vs jsp
+new features in html
+if we write the same html code in jsp will it display the result. we have index.html and index.jsp have the same code
+jstl library is used for what purpose. what are the tags you will get out of jstl
+application server vs web server. when to use which one
+what is document object model
+what is autoboxing
+can we override the operator to perform different operations
+why we need public static void main(String args[])
+can the file will be executed if we save it other than the class name. suppose class A and save the file name with B
+what is the usage docker
+where do you deploy the application. How do we deploy the application in application server. what are the steps
+if i have two println statement a+b+cd+10+20+30 and 10+20+30+a+b+cd. what will be the output
+how to develop a calculator using a spring boot. what are the things we need to do
+what are the activities you are performing in your spring boot project
+name some of the class loaders you are familiar 
+transaction manager
+what you discuss in daily scrum standup meeting
+how many members will be there in scrum meeting
+At what time deployment occurs
+If you couldn't able to complete the task how your team handle it and how scrum master manages it
+What is your understanding of agile
+what is your day to day responsibilities in technically like what type of code you used to write and how it helps the team
+inner join vs outer join
+why we need stream api
+collection vs stream
+different ways to create stream
+how to convert stream to collection
+forEach method
+Stream map reduce, find, match, sort
+lazy loading
+dirty checking
+jpa vs hibernate
+pseudo code for singleton
+functional vs object oriented programming
+map vs flatmap
+private vs public vs protected
+how to prevent a method from overriding
+Explain multithreading. On what scenarios you have used multithreading in your project
+Give a real time example of polymorphism, encapsulation, abstraction, inheritance
+Name some methods of object class
+hashcode vs equals
+
+
+
+
+
+
+
+Optionals - with the help of optionals we can specify alternate value to return. If we want to print odd number from a list of number but there is no odd numbers then we can use optionals. Alternative to if else
+varchar - distinguish between the null annd empty string
+varchar2 - doesn't distinguish between the null and empty string
+wrapper class - used to convert the primitive data types to object. Eg. int to Interger
+RequestMapping - used at class level
+GetMapping - used at method level; used to map the HTTP GET request
+External Iterator - programmer has control over the logic; If we want these thing to be printed we just specify the logic and the way
+Internal Iterator - forEach we will use. we just specify what is to be done not how it is to be done
+ways to create thread - by extending thread class and overriding the run metod & by implementing runnable interface by including run method
+Features - we can define methods in interface, more focus on behaviour of object which is function, when we work with collection, database we need stream api to make sure we don't have concurrency and mutation. when multiple threads sharing the same variable then it leads to concurrency.
+Stream filter - if you want to filter and get only odd numbers than we use it
+Stream map - if you want to convert a value into another value. If we have list a value 1 to 10 and you want multiply each value we can use map
+Stream map to int - if you want to convert all the double value to the integer value
+Stream - once we use a value we can't reuse it
+Serialization - converting the object state to persistent state. If you want to store the state of an object into a file we need to use serializable
+CotrollerAdvice - used to handle exception in spring boot using ExceptionHandler annotation
+
+
